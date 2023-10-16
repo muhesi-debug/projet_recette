@@ -14,7 +14,7 @@
             if($users=$req->fetch()){
                 if ($users->fonction=="PDG") {
                     $_SESSION['pdg']=$users->idAdmin;
-                    header('location:base.php');
+                    header('location:base/base.php');
                 }
                 if ($users->fonction=="ADMIN") {
                     $_SESSION['admin']=$users->idAdmin;
