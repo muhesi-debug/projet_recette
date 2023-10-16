@@ -9,7 +9,7 @@
             $_SESSION['client']=$users;
             header('location:commande.php');
         }else{
-            $req=$pdo->prepare('SELECT * from secretaire where nom_sec=? and pwd_sec=?');
+            $req=$pdo->prepare('SELECT * from administrateur where username=? and pass=?');
             $req->execute([$nom,$motdepasse]);
             if($users=$req->fetch()){
                 $_SESSION['admin']=$users;
