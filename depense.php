@@ -1,4 +1,7 @@
-<?php include("entete.php"); ?>
+<?php 
+    include_once("connexion.php");
+    include("entete.php"); 
+?>
 
 <?php
             if (!empty($_POST["nom_fsseur"])) {
@@ -57,13 +60,13 @@
               <?php endif ?>
 
               <?php if (empty($_GET["modifier"])): ?>
-              <form action="produit.php" method="post" enctype="multipart/form-data" class="php-email-forme">
+              <form action="depenses.php" method="post" enctype="multipart/form-data" class="php-email-forme">
                 <div class="row">
                   <div class="form-group col-md-12">
-                    <input type="text" name="nom_fsseur" class="form-control" id="nom" placeholder="PRODUIT" autocomplete="off" required>
+                    <input type="text" name="motif" class="form-control" id="nom" placeholder="Motif" autocomplete="off" required>
                   </div>
                   <div class="form-group col-md-12">
-                    <input type="text" name="postnom_fsseur" class="form-control" id="nom" placeholder="MONTANT" autocomplete="off" required>
+                    <input type="text" name="montant" class="form-control" id="nom" placeholder="Montant" autocomplete="off" required>
                   </div>
                 </div>
                 <div class="text-center"><button type="submit">Ajouter</button></div>
@@ -79,11 +82,15 @@
               <form action="produit.php" method="post" enctype="multipart/form-data" role="form" class="php-email-forme">
                 <div class="row">
                   <div class="form-group col-md-12">
-                    <label for="name">PRODUIT</label>
+                    <label for="name">Date</label>
                     <input type="text" name="nom_fsseurmodif" value="<?php echo $valeur->nom_fsseur; ?>" class="form-control" id="nom"  autocomplete="off" required>
                   </div>
                   <div class="form-group col-md-12">
-                    <label for="name">MONTANT</label>
+                    <label for="name">Motif</label>
+                    <input type="text" name="postnom_fsseurmodif" value="<?php echo $valeur->postnom_fsseur; ?>" class="form-control" id="nom"  autocomplete="off" required>
+                  </div>
+                  <div class="form-group col-md-12">
+                    <label for="name">Montant</label>
                     <input type="text" name="postnom_fsseurmodif" value="<?php echo $valeur->postnom_fsseur; ?>" class="form-control" id="nom"  autocomplete="off" required>
                   </div>
                   <input type="hidden" name="idfsseur" value="<?php echo $valeur->idfsseur; ?>">
