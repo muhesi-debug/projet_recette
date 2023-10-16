@@ -1,6 +1,8 @@
 <?php 
-    include_once("connexion.php");
     include("entete.php"); 
+    if (!isset($_SESSION['idCompte'])) {
+      header("location:index.php");
+    }
 ?>
 
 <?php
@@ -68,8 +70,13 @@
                   <div class="form-group col-md-12">
                     <input type="text" name="montant" class="form-control" id="nom" placeholder="Montant" autocomplete="off" required>
                   </div>
+                  
+                  <div class="form-group col-md-12">
+                    <input type="date" name="dateD" class="form-control" id="nom"  autocomplete="off">
+                    <input type="hidden" name="idCompte" class="form-control" id="nom"  autocomplete="off" value="<?=$_SESSION['idCompte']; ?>">
+                  </div> 
                 </div>
-                <div class="text-center"><button type="submit">Ajouter</button></div>
+                <div class="text-center"><button type="submit" name="ajout">Ajouter</button></div>
               </form>
               <?php endif ?>
 

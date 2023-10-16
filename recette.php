@@ -1,4 +1,9 @@
-<?php include("entete.php"); ?>
+<?php 
+      include("entete.php"); 
+      if (!isset($_SESSION['idCompte'])) {
+        header("location: index.php");
+      }
+?>
 
 <?php
             if (!empty($_POST["nom_fsseur"])) {
@@ -56,17 +61,32 @@
                 <div class="alert alert-danger"><?php echo $msg; ?></div>
               <?php endif ?>
 
-              <?php if (empty($_GET["modifier"])): ?>
-              <form action="produit.php" method="post" enctype="multipart/form-data" class="php-email-forme">
+              <?php if (empty($_GET["modifier"])): ?> 
+              <form action="recettes.php" method="post" enctype="multipart/form-data" class="php-email-forme">
                 <div class="row">
                   <div class="form-group col-md-12">
-                    <input type="text" name="nom_fsseur" class="form-control" id="nom" placeholder="PRODUIT" autocomplete="off" required>
+                    <input type="text" name="produit" class="form-control" id="nom" placeholder="PRODUIT" autocomplete="off" required>
                   </div>
                   <div class="form-group col-md-12">
-                    <input type="text" name="postnom_fsseur" class="form-control" id="nom" placeholder="MONTANT" autocomplete="off" required>
+                    <input type="date" name="dateR" class="form-control" id="nom" placeholder="DATE" autocomplete="off" required>
+                  </div>
+                  <div class="form-group col-md-12">
+                    <input type="text" name="quantite" class="form-control" id="nom" placeholder="QUANTITE" autocomplete="off" required>
+                  </div>
+                  <div class="form-group col-md-12">
+                    <input type="text" name="montant" class="form-control" id="nom" placeholder="MONTANT" autocomplete="off" required>
+                  </div>
+                  <div class="form-group col-md-12">
+                    <input type="text" name="reduction" class="form-control" id="nom" placeholder="REDUCTION" autocomplete="off">
+                  </div>
+                  <div class="form-group col-md-12">
+                   <textarea name="intitulOperation" id="nom" cols="30" rows="10" class="form-control" placeholder="Intitulé de l'Operation"></textarea>
+                  </div>
+                  <div class="form-group col-md-12">
+                    <input type="hidden" name="cicursalle" class="form-control" id="nom"  autocomplete="off" value="<?=$_SESSION['idCompte']; ?>">
                   </div>
                 </div>
-                <div class="text-center"><button type="submit">Ajouter</button></div>
+                <div class="text-center"><button type="submit" name="ajout">Ajouter</button></div>
               </form>
               <?php endif ?>
 
