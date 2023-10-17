@@ -1,0 +1,348 @@
+- 07:16:52.141 INFO: --------------------------------------------------------
+- 07:16:52.141 INFO: Started application
+- 07:16:52.141 INFO: Logging to: C:\Users\Muhesi\Desktop\GTB\debug.log
+- 07:16:52.141 INFO: Log level = DEBUG4
+- 07:16:52.141 INFO: Starting Mongoose 3.9c web server
+- 07:16:52.141 INFO: WWW directory: C:\Users\Muhesi\Desktop\GTB\www
+- 07:16:52.141 INFO: Index files: index.html,index.php
+- 07:16:52.141 INFO: CGI interpreter: C:\Users\Muhesi\Desktop\GTB\php\php-cgi.exe
+- 07:16:52.141 INFO: CGI pattern: **.php$
+- 07:16:52.141 INFO: Hide files patterns: 
+- 07:16:52.141 INFO: CGI environment variables set: TMP=C:\Users\Muhesi\AppData\Local\Temp\,TEMP=C:\Users\Muhesi\AppData\Local\Temp\,TMPDIR=C:\Users\Muhesi\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 07:16:52.141 INFO: Web server url: http://127.0.0.1:54119/
+- 07:16:52.156 INFO: remote_debugging_port = 60298
+- 07:16:52.156 DEBUG: Command line string for the browser process: "C:\Users\Muhesi\Desktop\GTB\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Muhesi\Desktop\GTB\debug.log" --remote-debugging-port=60298
+[1017/071652.656:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 07:16:52.235 DEBUG: App::OnContextInitialized()
+- 07:16:52.235 DEBUG: Window max width/height = 1286/680
+- 07:16:52.235 DEBUG: GetBrowserWindow(): not found, hwnd = 263202
+- 07:16:52.235 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 07:16:52.235 DEBUG: BrowserWindow::CreateBrowserControl()
+- 07:16:52.235 DEBUG: StoreBrowserWindow(): hwnd = 263202
+- 07:16:52.000 DEBUG: Command line string for the gpu-process process: "C:\Users\Muhesi\Desktop\GTB\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Muhesi\Desktop\GTB\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5917 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=27.20.100.9171 --gpu-driver-date=1-8-2021 --lang=en-US --log-file="C:\Users\Muhesi\Desktop\GTB\debug.log" --service-request-channel-token=D27D7C0D76613BBD6238B2777FCF5040 --mojo-platform-channel-handle=1844 /prefetch:2
+- 07:16:52.313 DEBUG: ClientHandler::OnAfterCreated()
+- 07:16:52.313 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 07:16:52.328 DEBUG: OnLoadingStateChange: loading=1, url=
+- 07:16:52.000 DEBUG: Command line string for the renderer process: "C:\Users\Muhesi\Desktop\GTB\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=4952A35CCFC3960806BD51B6D7766D4B --lang=en-US --lang=en-US --log-file="C:\Users\Muhesi\Desktop\GTB\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=4952A35CCFC3960806BD51B6D7766D4B --renderer-client-id=3 --mojo-platform-channel-handle=2424 /prefetch:1
+- 07:16:52.047 DEBUG: OnBrowserCreated()
+[1017/071652.903:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 07:16:53.719 INFO: GET 200 /style.css
+- 07:16:53.719 INFO: GET 200 /
+- 07:16:53.344 DEBUG: OnContextCreated()
+- 07:16:53.766 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54119/
+- 07:16:56.016 DEBUG: Command line string for the gpu-process process: "C:\Users\Muhesi\Desktop\GTB\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Muhesi\Desktop\GTB\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,42,61,74,80 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5917 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=27.20.100.9171 --gpu-driver-date=1-8-2021 --lang=en-US --log-file="C:\Users\Muhesi\Desktop\GTB\debug.log" --service-request-channel-token=4A08A169E6A64ADC3D6748F40002FA40 --mojo-platform-channel-handle=2416 /prefetch:2
+[1017/071657.099:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[1017/071657.688:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 07:17:00.235 DEBUG: WM_DESTROY
+- 07:17:00.235 DEBUG: RemoveBrowserWindow(): hwnd = 263202
+- 07:17:00.235 INFO: Stopping Mongoose web server
+- 07:17:00.235 DEBUG: Mongoose webserver stopped immediately
+- 07:17:00.266 DEBUG: OnBeforeClose() hwnd=132138
+- 07:17:00.266 DEBUG: RemoveBrowserWindow(): hwnd = 132138
+- 07:17:00.266 DEBUG: GetBrowserWindow(): not found, hwnd = 132138
+- 07:17:00.281 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 07:17:00.297 DEBUG: Calling CefQuitMessageLoop()
+- 07:17:00.360 INFO: Ended application
+- 07:17:00.360 INFO: --------------------------------------------------------
+- 07:17:03.157 INFO: --------------------------------------------------------
+- 07:17:03.157 INFO: Started application
+- 07:17:03.157 INFO: Logging to: C:\Users\Muhesi\Desktop\GTB\debug.log
+- 07:17:03.157 INFO: Log level = DEBUG4
+- 07:17:03.157 INFO: Starting Mongoose 3.9c web server
+- 07:17:03.157 INFO: WWW directory: C:\Users\Muhesi\Desktop\GTB\www
+- 07:17:03.157 INFO: Index files: index.html,index.php
+- 07:17:03.157 INFO: CGI interpreter: C:\Users\Muhesi\Desktop\GTB\php\php-cgi.exe
+- 07:17:03.157 INFO: CGI pattern: **.php$
+- 07:17:03.157 INFO: Hide files patterns: 
+- 07:17:03.157 INFO: CGI environment variables set: TMP=C:\Users\Muhesi\AppData\Local\Temp\,TEMP=C:\Users\Muhesi\AppData\Local\Temp\,TMPDIR=C:\Users\Muhesi\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 07:17:03.172 INFO: Web server url: http://127.0.0.1:54122/
+- 07:17:03.172 INFO: remote_debugging_port = 49283
+- 07:17:03.172 DEBUG: Command line string for the browser process: "C:\Users\Muhesi\Desktop\GTB\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Muhesi\Desktop\GTB\debug.log" --remote-debugging-port=49283
+[1017/071703.826:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 07:17:03.235 DEBUG: App::OnContextInitialized()
+- 07:17:03.235 DEBUG: Window max width/height = 1286/680
+- 07:17:03.235 DEBUG: GetBrowserWindow(): not found, hwnd = 328754
+- 07:17:03.235 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 07:17:03.235 DEBUG: BrowserWindow::CreateBrowserControl()
+- 07:17:03.250 DEBUG: StoreBrowserWindow(): hwnd = 328754
+- 07:17:03.000 DEBUG: Command line string for the gpu-process process: "C:\Users\Muhesi\Desktop\GTB\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Muhesi\Desktop\GTB\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5917 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=27.20.100.9171 --gpu-driver-date=1-8-2021 --lang=en-US --log-file="C:\Users\Muhesi\Desktop\GTB\debug.log" --service-request-channel-token=ED20BD2CEA11041215CF3154D5BD1899 --mojo-platform-channel-handle=1796 /prefetch:2
+- 07:17:03.313 DEBUG: ClientHandler::OnAfterCreated()
+- 07:17:03.313 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 07:17:03.329 DEBUG: OnLoadingStateChange: loading=1, url=
+- 07:17:03.000 DEBUG: Command line string for the renderer process: "C:\Users\Muhesi\Desktop\GTB\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=61CA43D309B3125A583BD90D815DC7F7 --lang=en-US --lang=en-US --log-file="C:\Users\Muhesi\Desktop\GTB\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=61CA43D309B3125A583BD90D815DC7F7 --renderer-client-id=3 --mojo-platform-channel-handle=2400 /prefetch:1
+[1017/071704.005:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 07:17:04.047 DEBUG: OnBrowserCreated()
+- 07:17:04.547 INFO: GET 200 /style.css
+- 07:17:04.563 INFO: GET 200 /
+- 07:17:04.203 DEBUG: OnContextCreated()
+- 07:17:04.610 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54122/
+[1017/071708.845:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 07:17:09.016 DEBUG: Command line string for the gpu-process process: "C:\Users\Muhesi\Desktop\GTB\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Muhesi\Desktop\GTB\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,42,61,74,80 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5917 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=27.20.100.9171 --gpu-driver-date=1-8-2021 --lang=en-US --log-file="C:\Users\Muhesi\Desktop\GTB\debug.log" --service-request-channel-token=A9F98686932926D01B75AB9A76F6372A --mojo-platform-channel-handle=2424 /prefetch:2
+[1017/071710.161:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[1017/071713.864:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 07:17:16.219 DEBUG: WM_DESTROY
+- 07:17:16.219 DEBUG: RemoveBrowserWindow(): hwnd = 328754
+- 07:17:16.219 INFO: Stopping Mongoose web server
+- 07:17:16.219 DEBUG: Mongoose webserver stopped immediately
+- 07:17:16.235 DEBUG: OnBeforeClose() hwnd=197674
+- 07:17:16.235 DEBUG: RemoveBrowserWindow(): hwnd = 197674
+- 07:17:16.250 DEBUG: GetBrowserWindow(): not found, hwnd = 197674
+- 07:17:16.250 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 07:17:16.250 DEBUG: Calling CefQuitMessageLoop()
+- 07:17:16.313 INFO: Ended application
+- 07:17:16.313 INFO: --------------------------------------------------------
+- 07:17:34.125 INFO: --------------------------------------------------------
+- 07:17:34.125 INFO: Started application
+- 07:17:34.125 INFO: Logging to: C:\Users\Muhesi\Desktop\GTB\debug.log
+- 07:17:34.125 INFO: Log level = DEBUG4
+- 07:17:34.125 INFO: Starting Mongoose 3.9c web server
+- 07:17:34.125 INFO: WWW directory: C:\Users\Muhesi\Desktop\GTB\www
+- 07:17:34.125 INFO: Index files: index.html,index.php
+- 07:17:34.125 INFO: CGI interpreter: C:\Users\Muhesi\Desktop\GTB\php\php-cgi.exe
+- 07:17:34.125 INFO: CGI pattern: **.php$
+- 07:17:34.125 INFO: Hide files patterns: 
+- 07:17:34.141 INFO: CGI environment variables set: TMP=C:\Users\Muhesi\AppData\Local\Temp\,TEMP=C:\Users\Muhesi\AppData\Local\Temp\,TMPDIR=C:\Users\Muhesi\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 07:17:34.141 INFO: Web server url: http://127.0.0.1:54125/
+- 07:17:34.141 INFO: remote_debugging_port = 62473
+- 07:17:34.141 DEBUG: Command line string for the browser process: "C:\Users\Muhesi\Desktop\GTB\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Muhesi\Desktop\GTB\debug.log" --remote-debugging-port=62473
+[1017/071734.922:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 07:17:34.204 DEBUG: App::OnContextInitialized()
+- 07:17:34.204 DEBUG: Window max width/height = 1286/680
+- 07:17:34.219 DEBUG: GetBrowserWindow(): not found, hwnd = 263170
+- 07:17:34.219 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 07:17:34.219 DEBUG: BrowserWindow::CreateBrowserControl()
+- 07:17:34.219 DEBUG: StoreBrowserWindow(): hwnd = 263170
+- 07:17:34.000 DEBUG: Command line string for the gpu-process process: "C:\Users\Muhesi\Desktop\GTB\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Muhesi\Desktop\GTB\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5917 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=27.20.100.9171 --gpu-driver-date=1-8-2021 --lang=en-US --log-file="C:\Users\Muhesi\Desktop\GTB\debug.log" --service-request-channel-token=B215EDF4E5FDEC1AACA1C4F06F7652DD --mojo-platform-channel-handle=1832 /prefetch:2
+- 07:17:35.282 DEBUG: ClientHandler::OnAfterCreated()
+- 07:17:35.282 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 07:17:35.297 DEBUG: OnLoadingStateChange: loading=1, url=
+- 07:17:35.000 DEBUG: Command line string for the renderer process: "C:\Users\Muhesi\Desktop\GTB\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=0202CB6328E3C4029D82B261BF75BCEB --lang=en-US --lang=en-US --log-file="C:\Users\Muhesi\Desktop\GTB\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=0202CB6328E3C4029D82B261BF75BCEB --renderer-client-id=3 --mojo-platform-channel-handle=2392 /prefetch:1
+[1017/071735.095:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 07:17:35.046 DEBUG: OnBrowserCreated()
+- 07:17:35.657 INFO: GET 200 /style.css
+- 07:17:35.657 INFO: GET 200 /
+- 07:17:35.343 DEBUG: OnContextCreated()
+- 07:17:35.829 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54125/
+[1017/071739.947:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1017/071744.960:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1017/071749.988:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1017/071755.009:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 07:17:56.360 DEBUG: WM_DESTROY
+- 07:17:56.360 DEBUG: RemoveBrowserWindow(): hwnd = 263170
+- 07:17:56.360 INFO: Stopping Mongoose web server
+- 07:17:56.360 DEBUG: Mongoose webserver stopped immediately
+- 07:17:56.375 DEBUG: OnBeforeClose() hwnd=263166
+- 07:17:56.375 DEBUG: RemoveBrowserWindow(): hwnd = 263166
+- 07:17:56.407 DEBUG: GetBrowserWindow(): not found, hwnd = 263166
+- 07:17:56.407 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 07:17:56.407 DEBUG: Calling CefQuitMessageLoop()
+- 07:17:56.093 DEBUG: OnBrowserDestroyed()
+- 07:17:56.485 INFO: Ended application
+- 07:17:56.485 INFO: --------------------------------------------------------
+- 07:19:13.219 INFO: --------------------------------------------------------
+- 07:19:13.219 INFO: Started application
+- 07:19:13.219 INFO: Logging to: C:\Users\Muhesi\Desktop\GTB\debug.log
+- 07:19:13.219 INFO: Log level = DEBUG4
+- 07:19:13.219 INFO: Starting Mongoose 3.9c web server
+- 07:19:13.219 INFO: WWW directory: C:\Users\Muhesi\Desktop\GTB\www
+- 07:19:13.219 INFO: Index files: index.html,index.php
+- 07:19:13.219 INFO: CGI interpreter: C:\Users\Muhesi\Desktop\GTB\php\php-cgi.exe
+- 07:19:13.219 INFO: CGI pattern: **.php$
+- 07:19:13.219 INFO: Hide files patterns: 
+- 07:19:13.219 INFO: CGI environment variables set: TMP=C:\Users\Muhesi\AppData\Local\Temp\,TEMP=C:\Users\Muhesi\AppData\Local\Temp\,TMPDIR=C:\Users\Muhesi\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 07:19:13.235 INFO: Web server url: http://127.0.0.1:54128/
+- 07:19:13.235 INFO: remote_debugging_port = 58158
+- 07:19:13.235 DEBUG: Command line string for the browser process: "C:\Users\Muhesi\Desktop\GTB\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Muhesi\Desktop\GTB\debug.log" --remote-debugging-port=58158
+[1017/071913.434:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 07:19:13.297 DEBUG: App::OnContextInitialized()
+- 07:19:13.297 DEBUG: Window max width/height = 1286/680
+- 07:19:13.313 DEBUG: GetBrowserWindow(): not found, hwnd = 198460
+- 07:19:13.313 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 07:19:13.313 DEBUG: BrowserWindow::CreateBrowserControl()
+- 07:19:13.313 DEBUG: StoreBrowserWindow(): hwnd = 198460
+- 07:19:13.000 DEBUG: Command line string for the gpu-process process: "C:\Users\Muhesi\Desktop\GTB\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Muhesi\Desktop\GTB\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5917 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=27.20.100.9171 --gpu-driver-date=1-8-2021 --lang=en-US --log-file="C:\Users\Muhesi\Desktop\GTB\debug.log" --service-request-channel-token=B5B1515D7B403DCBE4F161DB4EA206AF --mojo-platform-channel-handle=1824 /prefetch:2
+- 07:19:13.375 DEBUG: ClientHandler::OnAfterCreated()
+- 07:19:13.375 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 07:19:13.391 DEBUG: OnLoadingStateChange: loading=1, url=
+- 07:19:13.000 DEBUG: Command line string for the renderer process: "C:\Users\Muhesi\Desktop\GTB\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=00C3CE80510F6E10E92AFF2F4E45E97C --lang=en-US --lang=en-US --log-file="C:\Users\Muhesi\Desktop\GTB\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=00C3CE80510F6E10E92AFF2F4E45E97C --renderer-client-id=3 --mojo-platform-channel-handle=2408 /prefetch:1
+[1017/071913.616:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 07:19:13.047 DEBUG: OnBrowserCreated()
+- 07:19:13.782 INFO: GET 200 /
+- 07:19:13.813 INFO: GET 200 /assets/vendor/aos/aos.css
+- 07:19:13.813 INFO: GET 200 /assets/vendor/glightbox/css/glightbox.min.css
+- 07:19:13.813 INFO: GET 200 /assets/vendor/bootstrap-icons/bootstrap-icons.css
+- 07:19:13.813 INFO: GET 200 /assets/vendor/bootstrap/css/bootstrap.min.css
+- 07:19:13.813 INFO: GET 200 /assets/vendor/boxicons/css/boxicons.min.css
+- 07:19:13.406 DEBUG: OnContextCreated()
+- 07:19:14.844 INFO: GET 200 /assets/css/style.css
+- 07:19:14.875 INFO: GET 200 /assets/vendor/swiper/swiper-bundle.min.css
+- 07:19:14.875 INFO: GET 200 /assets/css/styleform.css
+- 07:19:14.938 INFO: GET 200 /assets/vendor/aos/aos.js
+- 07:19:14.938 INFO: GET 200 /assets/vendor/php-email-form/validate.js
+- 07:19:14.953 INFO: GET 200 /assets/vendor/bootstrap/js/bootstrap.bundle.min.js
+- 07:19:14.969 INFO: GET 200 /assets/vendor/isotope-layout/isotope.pkgd.min.js
+- 07:19:14.969 INFO: GET 200 /assets/js/main.js
+- 07:19:14.985 INFO: GET 200 /assets/vendor/glightbox/js/glightbox.min.js
+- 07:19:14.000 INFO: GET 200 /assets/vendor/swiper/swiper-bundle.min.js
+- 07:19:14.016 INFO: GET 200 /assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2?a74547b2f0863226942ff8ded57db345
+[1017/071914.529:INFO:CONSOLE(6)] "Uncaught SyntaxError: Unexpected token ...", source: http://127.0.0.1:54128/assets/vendor/bootstrap/js/bootstrap.bundle.min.js (6)
+- 07:19:14.547 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54128/
+[1017/071918.448:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1017/071923.470:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1017/071928.489:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1017/071933.513:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1017/071938.540:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1017/071943.561:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1017/071948.575:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 07:19:49.141 DEBUG: WM_DESTROY
+- 07:19:49.141 DEBUG: RemoveBrowserWindow(): hwnd = 198460
+- 07:19:49.157 INFO: Stopping Mongoose web server
+- 07:19:49.157 DEBUG: Mongoose webserver stopped immediately
+- 07:19:49.172 DEBUG: OnBeforeClose() hwnd=198470
+- 07:19:49.172 DEBUG: RemoveBrowserWindow(): hwnd = 198470
+- 07:19:49.172 DEBUG: GetBrowserWindow(): not found, hwnd = 198470
+- 07:19:49.188 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 07:19:49.188 DEBUG: Calling CefQuitMessageLoop()
+- 07:19:49.797 DEBUG: OnBrowserDestroyed()
+- 07:19:49.266 INFO: Ended application
+- 07:19:49.282 INFO: --------------------------------------------------------
+- 07:35:12.266 INFO: --------------------------------------------------------
+- 07:35:12.266 INFO: Started application
+- 07:35:12.266 INFO: Logging to: C:\Users\Muhesi\Desktop\GTB\debug.log
+- 07:35:12.266 INFO: Log level = DEBUG4
+- 07:35:12.266 INFO: Starting Mongoose 3.9c web server
+- 07:35:12.266 INFO: WWW directory: C:\Users\Muhesi\Desktop\GTB\www
+- 07:35:12.266 INFO: Index files: index.html,index.php
+- 07:35:12.266 INFO: CGI interpreter: C:\Users\Muhesi\Desktop\GTB\php\php-cgi.exe
+- 07:35:12.266 INFO: CGI pattern: **.php$
+- 07:35:12.266 INFO: Hide files patterns: 
+- 07:35:12.282 INFO: CGI environment variables set: TMP=C:\Users\Muhesi\AppData\Local\Temp\,TEMP=C:\Users\Muhesi\AppData\Local\Temp\,TMPDIR=C:\Users\Muhesi\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 07:35:12.313 INFO: Web server url: http://127.0.0.1:54147/
+- 07:35:12.313 INFO: remote_debugging_port = 50784
+- 07:35:12.313 DEBUG: Command line string for the browser process: "C:\Users\Muhesi\Desktop\GTB\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Muhesi\Desktop\GTB\debug.log" --remote-debugging-port=50784
+[1017/073512.899:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 07:35:12.485 DEBUG: App::OnContextInitialized()
+- 07:35:12.500 DEBUG: Window max width/height = 1286/680
+- 07:35:12.500 DEBUG: GetBrowserWindow(): not found, hwnd = 197562
+- 07:35:12.500 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 07:35:12.500 DEBUG: BrowserWindow::CreateBrowserControl()
+- 07:35:12.500 DEBUG: StoreBrowserWindow(): hwnd = 197562
+- 07:35:13.000 DEBUG: Command line string for the gpu-process process: "C:\Users\Muhesi\Desktop\GTB\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Muhesi\Desktop\GTB\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5917 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=27.20.100.9171 --gpu-driver-date=1-8-2021 --lang=en-US --log-file="C:\Users\Muhesi\Desktop\GTB\debug.log" --service-request-channel-token=1685A17F4C50E476B7728F44EE32DC7B --mojo-platform-channel-handle=1816 /prefetch:2
+- 07:35:13.579 DEBUG: ClientHandler::OnAfterCreated()
+- 07:35:13.579 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 07:35:13.594 DEBUG: OnLoadingStateChange: loading=1, url=
+- 07:35:13.000 DEBUG: Command line string for the renderer process: "C:\Users\Muhesi\Desktop\GTB\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=5CCF5DE90C308B5E127305952AAFAC1E --lang=en-US --lang=en-US --log-file="C:\Users\Muhesi\Desktop\GTB\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=5CCF5DE90C308B5E127305952AAFAC1E --renderer-client-id=3 --mojo-platform-channel-handle=2400 /prefetch:1
+[1017/073513.146:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 07:35:13.047 DEBUG: OnBrowserCreated()
+- 07:35:13.938 INFO: GET 200 /assets/vendor/aos/aos.css
+- 07:35:13.938 INFO: GET 200 /assets/vendor/glightbox/css/glightbox.min.css
+- 07:35:13.938 INFO: GET 200 /assets/vendor/bootstrap-icons/bootstrap-icons.css
+- 07:35:13.938 INFO: GET 200 /assets/vendor/boxicons/css/boxicons.min.css
+- 07:35:13.938 INFO: GET 200 /assets/vendor/bootstrap/css/bootstrap.min.css
+- 07:35:13.954 INFO: GET 200 /
+- 07:35:13.969 INFO: GET 200 /assets/vendor/swiper/swiper-bundle.min.css
+- 07:35:13.969 INFO: GET 200 /assets/css/style.css
+- 07:35:13.969 INFO: GET 200 /assets/css/styleform.css
+- 07:35:13.344 DEBUG: OnContextCreated()
+- 07:35:13.969 INFO: GET 200 /assets/vendor/aos/aos.js
+- 07:35:13.985 INFO: GET 200 /assets/vendor/bootstrap/js/bootstrap.bundle.min.js
+- 07:35:13.000 INFO: GET 200 /assets/vendor/glightbox/js/glightbox.min.js
+- 07:35:13.000 INFO: GET 200 /assets/js/main.js
+- 07:35:13.000 INFO: GET 200 /assets/vendor/swiper/swiper-bundle.min.js
+- 07:35:13.000 INFO: GET 200 /assets/vendor/isotope-layout/isotope.pkgd.min.js
+- 07:35:13.000 INFO: GET 200 /assets/vendor/php-email-form/validate.js
+[1017/073513.592:INFO:CONSOLE(6)] "Uncaught SyntaxError: Unexpected token ...", source: http://127.0.0.1:54147/assets/vendor/bootstrap/js/bootstrap.bundle.min.js (6)
+- 07:35:13.172 INFO: GET 200 /assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2?a74547b2f0863226942ff8ded57db345
+- 07:35:13.469 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54147/
+[1017/073517.918:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1017/073522.941:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1017/073527.953:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1017/073532.970:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1017/073537.996:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1017/073543.011:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1017/073548.032:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1017/073553.055:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1017/073558.067:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1017/073603.086:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1017/073608.104:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1017/073613.120:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1017/073618.143:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1017/073623.156:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1017/073628.181:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1017/073633.198:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1017/073638.222:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1017/073643.249:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1017/073648.262:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1017/073653.276:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1017/073658.300:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1017/073703.319:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1017/073708.336:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1017/073713.347:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1017/073718.369:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1017/073723.382:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 07:37:28.610 DEBUG: OnBeforeClose() hwnd=197524
+- 07:37:28.610 DEBUG: RemoveBrowserWindow(): hwnd = 197524
+- 07:37:28.610 DEBUG: GetBrowserWindow(): not found, hwnd = 197524
+- 07:37:28.610 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 07:37:37.000 INFO: --------------------------------------------------------
+- 07:37:37.000 INFO: Started application
+- 07:37:37.000 INFO: Logging to: C:\Users\Muhesi\Desktop\GTB\debug.log
+- 07:37:37.000 INFO: Log level = DEBUG4
+- 07:37:37.000 INFO: Starting Mongoose 3.9c web server
+- 07:37:37.000 INFO: WWW directory: C:\Users\Muhesi\Desktop\GTB\www
+- 07:37:37.000 INFO: Index files: index.html,index.php
+- 07:37:37.000 INFO: CGI interpreter: C:\Users\Muhesi\Desktop\GTB\php\php-cgi.exe
+- 07:37:37.000 INFO: CGI pattern: **.php$
+- 07:37:37.000 INFO: Hide files patterns: 
+- 07:37:37.000 INFO: CGI environment variables set: TMP=C:\Users\Muhesi\AppData\Local\Temp\,TEMP=C:\Users\Muhesi\AppData\Local\Temp\,TMPDIR=C:\Users\Muhesi\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 07:37:37.016 INFO: Web server url: http://127.0.0.1:54166/
+- 07:37:37.016 INFO: remote_debugging_port = 51138
+- 07:37:37.016 DEBUG: Command line string for the browser process: "C:\Users\Muhesi\Desktop\GTB\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Muhesi\Desktop\GTB\debug.log" --remote-debugging-port=51138
+[1017/073737.471:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 07:37:37.172 DEBUG: App::OnContextInitialized()
+- 07:37:37.172 DEBUG: Window max width/height = 1286/680
+- 07:37:37.188 DEBUG: GetBrowserWindow(): not found, hwnd = 263060
+- 07:37:37.188 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 07:37:37.188 DEBUG: BrowserWindow::CreateBrowserControl()
+- 07:37:37.188 DEBUG: StoreBrowserWindow(): hwnd = 263060
+- 07:37:37.016 DEBUG: Command line string for the gpu-process process: "C:\Users\Muhesi\Desktop\GTB\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Muhesi\Desktop\GTB\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5917 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=27.20.100.9171 --gpu-driver-date=1-8-2021 --lang=en-US --log-file="C:\Users\Muhesi\Desktop\GTB\debug.log" --service-request-channel-token=347DA89F2477CF138785CF6D98804B0A --mojo-platform-channel-handle=1792 /prefetch:2
+- 07:37:37.329 DEBUG: ClientHandler::OnAfterCreated()
+- 07:37:37.329 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 07:37:37.344 DEBUG: OnLoadingStateChange: loading=1, url=
+- 07:37:37.000 DEBUG: Command line string for the renderer process: "C:\Users\Muhesi\Desktop\GTB\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=EB14488BB74E9EED3DB8EE91156ED6BB --lang=en-US --lang=en-US --log-file="C:\Users\Muhesi\Desktop\GTB\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=EB14488BB74E9EED3DB8EE91156ED6BB --renderer-client-id=3 --mojo-platform-channel-handle=2376 /prefetch:1
+[1017/073737.772:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 07:37:37.031 DEBUG: OnBrowserCreated()
+- 07:37:38.875 INFO: GET 200 /assets/vendor/aos/aos.css
+- 07:37:38.875 INFO: GET 200 /assets/vendor/bootstrap-icons/bootstrap-icons.css
+- 07:37:38.875 INFO: GET 200 /assets/vendor/boxicons/css/boxicons.min.css
+- 07:37:38.875 INFO: GET 200 /assets/vendor/glightbox/css/glightbox.min.css
+- 07:37:38.875 INFO: GET 200 /assets/vendor/bootstrap/css/bootstrap.min.css
+- 07:37:38.875 INFO: GET 200 /
+- 07:37:38.907 INFO: GET 200 /assets/vendor/swiper/swiper-bundle.min.css
+- 07:37:38.907 INFO: GET 200 /assets/css/style.css
+- 07:37:38.907 INFO: GET 200 /assets/css/styleform.css
+- 07:37:38.907 INFO: GET 200 /assets/vendor/aos/aos.js
+- 07:37:38.516 DEBUG: OnContextCreated()
+- 07:37:38.922 INFO: GET 200 /assets/vendor/bootstrap/js/bootstrap.bundle.min.js
+- 07:37:38.922 INFO: GET 200 /assets/vendor/glightbox/js/glightbox.min.js
+- 07:37:38.938 INFO: GET 200 /assets/vendor/isotope-layout/isotope.pkgd.min.js
+- 07:37:38.938 INFO: GET 200 /assets/vendor/php-email-form/validate.js
+- 07:37:38.938 INFO: GET 200 /assets/vendor/swiper/swiper-bundle.min.js
+- 07:37:38.954 INFO: GET 200 /assets/js/main.js
+[1017/073738.404:INFO:CONSOLE(6)] "Uncaught SyntaxError: Unexpected token ...", source: http://127.0.0.1:54166/assets/vendor/bootstrap/js/bootstrap.bundle.min.js (6)
+- 07:37:38.110 INFO: GET 200 /assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2?a74547b2f0863226942ff8ded57db345
+- 07:37:38.329 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54166/
+[1017/073742.500:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1017/073747.520:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 07:37:50.610 DEBUG: WM_DESTROY
+- 07:37:50.610 DEBUG: RemoveBrowserWindow(): hwnd = 263060
+- 07:37:50.610 INFO: Stopping Mongoose web server
+- 07:37:50.610 DEBUG: Mongoose webserver stopped immediately
+- 07:37:50.625 DEBUG: OnBeforeClose() hwnd=263058
+- 07:37:50.625 DEBUG: RemoveBrowserWindow(): hwnd = 263058
+- 07:37:50.625 DEBUG: GetBrowserWindow(): not found, hwnd = 263058
+- 07:37:50.625 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 07:37:50.625 DEBUG: Calling CefQuitMessageLoop()
+- 07:37:51.250 DEBUG: OnBrowserDestroyed()
+- 07:37:51.735 INFO: Ended application
+- 07:37:51.735 INFO: --------------------------------------------------------

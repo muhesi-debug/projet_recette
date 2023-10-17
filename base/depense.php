@@ -2,7 +2,23 @@
     include("entete3.php"); 
     if (!isset($_SESSION['pdg'])) {
       header("location:../index.php");
+
+
     }
+    $select=$pdo->query("SELECT * FROM compte");
+
+    if (isset($_POST['view'])) {
+      if (isset($_POST['cicursalle']) && !isset($_POST['date'])) {
+        $sic=htmlspecialchars($_POST['cicursalle']);
+        $recup=$pdo->query("SELECT depenses.idDepense,dateD,motif,montant,compte.idCompte,nomCircusalle,compte.nomGerant FROM compte,depenses WHERE depenses.cicursalle=compte.idCompte AND compte.idCompte='$sic'");
+      }
+      if (isset($_POST['cicursalle']) && isset($_POST['date'])) {
+        $sic=htmlspecialchars($_POST['cicursalle']);
+        $date=htmlspecialchars($_POST['date']);
+        $recup=$pdo->query("SELECT depenses.idDepense,dateD,motif,montant,compte.idCompte,nomCircusalle,compte.nomGerant FROM compte,depenses WHERE depenses.cicursalle=compte.idCompte AND (compte.idCompte='$sic' AND depenses.dateD='$date')");
+      }
+    }
+    $recup=$pdo->query("SELECT depenses.idDepense,dateD,motif,montant,compte.idCompte,nomCircusalle,compte.nomGerant FROM compte,depenses WHERE depenses.cicursalle=compte.idCompte");
 ?>
 
 <?php
@@ -53,14 +69,19 @@
         <div class="section-title">
             <form action="" method="post" class="php-email-forme">
               <dev class="row">
-                  <div class="form-group col-md-8">
+                  <div class="form-group col-md-6">
                     <select name="cicursalle" id="nom" class="form-control">
-                        <option value="0">Chosir un sicursalle</option>
-                        <option value="">Butembo</option>
+                        <option value="0" selected disabled>Chosir un sicursalle</option>
+                        <?php while ($a=$select->fetch()) {?>
+                        <option value="<?=$a->idCompte; ?>"> <?=$a->nomCircusalle; ?></option>
+                        <?php } ?>
                     </select>
                   </div>
+                  <div class="form-group col-md-6">
+                    <input type="date" name="date" id="nom" class="form-control">
+                  </div>
                   <div class="form-group col-md3">
-                    <div class="text-center"><button type="submit" name="ajout">Ajouter</button></div>
+                    <div class="text-center"><button type="submit" name="view">Afficher</button></div>
                   </div>
               </dev>
             </form>
@@ -76,20 +97,24 @@
                 <thead>
                   <tr>
                     <th class="text-center">N°</th>
-                    <th class="text-center">PRODUIT</th>
+                    <th class="text-center">SICURSALLE</th>
                     <th class="text-center">MONTANT</th>
+                    <th class="text-center">MOTIF</th>
                     <th class="text-center">DATE</th>
                     <th colspan="2" style="text-align: center;">ACTION</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <td class="text-center">1</td>
-                    <td>CREMICA</td>
-                    <td class="text-center">50$</td>
-                    <td class="text-center"><?php echo date("j/m/Y"); ?></td>
-                    <td><center><a href="" class="btn btn-primary">Modifier</a></center></td>
-                    <td><center><a href="" class="btn btn-danger">Supprimer</a></center></td>
+                    <?php $compteur=0; while ($a=$recup->fetch() ) { $compteur++; ?>
+                      <td class="text-center"> <?=$compteur; ?></td>
+                      <td><?=$a->nomCircusalle; ?></td>
+                      <td class="text-center"><?=$a->montant; ?></td>
+                      <td class="text-center"><?=$a->motif; ?></td>
+                      <td class="text-center"><?=$a->dateD; ?></td>
+                      <td><center><a href="" class="btn btn-primary">Modifier</a></center></td>
+                      <td><center><a href="" class="btn btn-danger">Supprimer</a></center></td>
+                    <?php } ?>
                   </tr> 
                   <tfooter>
                     <tr>
