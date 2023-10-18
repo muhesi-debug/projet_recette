@@ -112,8 +112,8 @@
                       <td class="text-center"><?=$a->montant; ?></td>
                       <td class="text-center"><?=$a->motif; ?></td>
                       <td class="text-center"><?=$a->dateD; ?></td>
-                      <td><center><a href="" class="btn btn-primary">Modifier</a></center></td>
-                      <td><center><a href="" class="btn btn-danger">Supprimer</a></center></td>
+                      <td><center><a href="suppDepanse.php?id=<?=$a->idRecette;?>" class="btn btn-primary">Modifier</a></center></td>
+                      <td><center><a href="suppDepanse.php?id=<?=$a->idRecette;?>" class="btn btn-danger">Supprimer</a></center></td>
                     <?php } ?>
                   </tr> 
                   <tfooter>

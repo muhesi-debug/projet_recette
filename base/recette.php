@@ -10,15 +10,15 @@
     if (isset($_POST['view'])) {
       if (isset($_POST['cicursalle']) && !isset($_POST['date'])) {
         $sic=htmlspecialchars($_POST['cicursalle']);
-        $recup=$pdo->query("SELECT depenses.idDepense,dateD,motif,montant,compte.idCompte,nomCircusalle,compte.nomGerant FROM compte,depenses WHERE depenses.cicursalle=compte.idCompte AND compte.idCompte='$sic'");
+        $recup=$pdo->query("SELECT idRecette,dateR,montant,reduction,intitulOperation,cicursalle,produit,quantite,nomCircusalle,adresse,compte.nomGerant,telephone from compte,recette WHERE recette.cicursalle=compte.idCompte AND compte.idCompte='$sic'");
       }
       if (isset($_POST['cicursalle']) && isset($_POST['date'])) {
         $sic=htmlspecialchars($_POST['cicursalle']);
         $date=htmlspecialchars($_POST['date']);
-        $recup=$pdo->query("SELECT depenses.idDepense,dateD,motif,montant,compte.idCompte,nomCircusalle,compte.nomGerant FROM compte,depenses WHERE depenses.cicursalle=compte.idCompte AND (compte.idCompte='$sic' AND depenses.dateD='$date')");
+        $recup=$pdo->query("SELECT idRecette,dateR,montant,reduction,intitulOperation,cicursalle,produit,quantite,nomCircusalle,adresse,compte.nomGerant,telephone from compte,recette WHERE recette.cicursalle=compte.idCompte AND (compte.idCompte='$sic' AND dateR='$date')");
       }
     }
-    $recup=$pdo->query("SELECT depenses.idDepense,dateD,motif,montant,compte.idCompte,nomCircusalle,compte.nomGerant FROM compte,depenses WHERE depenses.cicursalle=compte.idCompte");
+    $recup=$pdo->query("SELECT idRecette,dateR,montant,reduction,intitulOperation,cicursalle,produit,quantite,nomCircusalle,adresse,compte.nomGerant,telephone from compte,recette WHERE recette.cicursalle=compte.idCompte ");
 ?>
 
 <?php
@@ -99,7 +99,10 @@
                     <th class="text-center">N°</th>
                     <th class="text-center">SICURSALLE</th>
                     <th class="text-center">MONTANT</th>
-                    <th class="text-center">MOTIF</th>
+                    <th class="text-center">OPERATIONS</th>
+                    <th class="text-center">OPERATIONS</th>
+                    <th class="text-center">PRODUITS</th>
+                    <th class="text-center">QUANTITES</th>
                     <th class="text-center">DATE</th>
                     <th colspan="2" style="text-align: center;">ACTION</th>
                   </tr>
@@ -110,15 +113,21 @@
                       <td class="text-center"> <?=$compteur; ?></td>
                       <td><?=$a->nomCircusalle; ?></td>
                       <td class="text-center"><?=$a->montant; ?></td>
-                      <td class="text-center"><?=$a->motif; ?></td>
-                      <td class="text-center"><?=$a->dateD; ?></td>
-                      <td><center><a href="" class="btn btn-primary">Modifier</a></center></td>
-                      <td><center><a href="" class="btn btn-danger">Supprimer</a></center></td>
+                      <td class="text-center"><?=$a->intitulOperation; ?></td>
+                      <td class="text-center"><?=$a->reduction; ?></td>
+                      <td class="text-center"><?=$a->produit; ?></td>
+                      <td class="text-center"><?=$a->quantite; ?></td>
+                      <td class="text-center"><?=$a->dateR; ?></td>
+                      <td><center><a href="modifRecettes.php?id=<?=$a->idRecette; ?>" class="btn btn-primary">Modifier</a></center></td>
+                      <td><center><a href="supprRecette.php?id=<?=$a->idRecette; ?>" class="btn btn-danger">Supprimer</a></center></td>
                     <?php } ?>
                   </tr> 
                   <tfooter>
                     <tr>
-                      <th colspan="5">TOTAL DEPENSEES</th>
+                      <th colspan="5">TOTAL RECETTES</th>
+                      <th></th>
+                      <th></th>
+                      <th></th>
                       <th>50$</th>
                     </tr>
                   </tfooter>  
