@@ -22,7 +22,7 @@
                     <input type="password" name="motdepasse" class="form-control" id="nom" placeholder="Mot de Passe" autocomplete="off" required>
                   </div>
                 </div>
-                <div class="text-center"><button type="submit">Se Connecter</button></div>
+                <div class="text-center"><button type="submit">Connexion</button></div>
               </form>
             </div>
           </div>
